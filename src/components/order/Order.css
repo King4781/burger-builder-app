@@ -1,0 +1,19 @@
+.Order {
+  width: 80%;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 10px;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+.Ingredients {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 500px) {
+  .Ingredients {
+    flex-direction: row;
+  }
+}
